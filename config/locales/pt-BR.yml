@@ -1,73 +1,78 @@
 pt-BR:
   release_notes:
-	title: "Nota de Release"
-	title_plural: "Notas de release"
-        release_note: "nota de release"
-        release_note_plural: "notas de release"
-	cant_set_done_if_no_release_notes: "O valor n„o pode ser alterado para %{value} a menos que uma nota de release tenha sido escrita"
-        generate: "Gerar notas de release"
-        generate_title: "Notas de release para vers„o %{version}"
-	show_closed_versions: "Mostrar versıes finalizadas"
-	x_issues_in_total: "%{count} de tarefas no total"
-	x_requiring_release_notes: "%{count} de tarefas precisam de notas de release"
-	x_done: "%{count} concluÌdas"
-	x_to_go: "%{count} a fazer"
-	all_done: "Tudo concluÌdo!"
-	not_started: "N„o iniciada"
-	no_issues_for_this_version: "Nenhuma tarefa precisa de nota de release para essa vers„o"
+    title: "Nota de Release"
+    title_plural: "Notas de release"
+
+    release_note: "nota de release"
+    release_note_plural: "notas de release"
+
+    cant_set_done_if_no_release_notes: "O valor n√£o pode ser alterado para %{value} a menos que uma nota de release tenha sido escrita"
+
+    generate: "Gerar notas de release"
+    generate_title: "Notas de release para vers√£o %{version}"
+    show_closed_versions: "Mostrar vers√µes finalizadas"
+
+    x_issues_in_total: "%{count} de tarefas no total"
+    x_requiring_release_notes: "%{count} de tarefas precisam de notas de release"
+    x_done: "%{count} conclu√≠das"
+    x_to_go: "%{count} a fazer"
+    all_done: "Tudo conclu√≠do!"
+    not_started: "N√£o iniciada"
+
+    no_issues_for_this_version: "Nenhuma tarefa precisa de nota de release para essa vers√£o"
 
   some_issues_not_finished:
-	one: "H· 1 tarefa que precisa de notas de release"
-	other: "H· %{count} tarefas que precisam de notas de release"
+    one: "H√° 1 tarefa que precisa de notas de release"
+    other: "H√° %{count} tarefas que precisam de notas de release"
 
   some_issues_nil_custom_field_value:
-	one: "H· 1 tarefa que n„o possui valor para o campo de notas de release"
-	other: "H· %{count} tarefas que n„o possuem valor para o campo de notas de release"
+    one: "H√° 1 tarefa que n√£o possui valor para o campo de notas de release"
+    other: "H√° %{count} tarefas que n√£o possuem valor para o campo de notas de release"
 
   some_issues_done_with_no_release_notes:
-	one: "H· 1 tarefa marcada como j· 'concluÌda', mas n„o tem notas de release"
-	other: "H· %{count} tarefas marcadas como 'concluÌdas', mas que n„o tÍm notas de release"
+    one: "H√° 1 tarefa marcada como j√° 'conclu√≠da', mas n√£o tem notas de release"
+    other: "H√° %{count} tarefas marcadas como 'conclu√≠das', mas que n√£o t√™m notas de release"
 
   raw: "Visualizar linha"
   download: "Baixar"
 
   config:
-	issue_custom_field:
-	name: "Campo personalizado para notas de release"
-	info: "Esse campo È usado para checar se as notas de release foram completadas. Deve ser um campo do tipo lista com trÍs valores; indicando que a) a tarefa n„o precisa de notas de release, b) a tarefa precisa de notas de release e ainda n„o as possuem, ou c) notas de release para essa tarefa est„o concluÌdas."
+    issue_custom_field:
+    name: "Campo personalizado para notas de release"
+    info: "Esse campo √© usado para checar se as notas de release foram completadas. Deve ser um campo do tipo lista com tr√™s valores; indicando que a) a tarefa n√£o precisa de notas de release, b) a tarefa precisa de notas de release e ainda n√£o as possuem, ou c) notas de release para essa tarefa est√£o conclu√≠das."
 
   field_value_not_required:
-	name: "As tarefas que n„o precisam de notas de release s„o"
+    name: "As tarefas que n√£o precisam de notas de release s√£o"
 
   field_value_todo:
-	name: "As tarefas que ainda precisam de notas de release s„o"
+    name: "As tarefas que ainda precisam de notas de release s√£o"
 
   field_value_done:
-	name: "As tarefas com notas de release concluÌdas s„o"
+    name: "As tarefas com notas de release conclu√≠das s√£o"
 
   formats:
-     title: "Formatos"
-     format: "Formato"
-     new: "Novo formato"
-     none: "Nenhum formato de notas de release est· definido atualmente."
-     define_some: "Definir algum"
-     default_generation_format: "Gerar formato padr„o"
-     preview: "PrÈ-visualizar nova vers„o"
+    title: "Formatos"
+    format: "Formato"
+    new: "Novo formato"
+    none: "Nenhum formato de notas de release est√° definido atualmente."
+    define_some: "Definir algum"
+    default_generation_format: "Gerar formato padr√£o"
+    preview: "Pr√©-visualizar nova vers√£o"
 
   attributes:
-       name: 'Nome'
-       header: 'CabeÁalho'
-       start: 'InÌcio'
-       each_issue: 'Cada tarefa'
-       end: 'TÈrmino'
+    name: 'Nome'
+    header: 'Cabe√ßalho'
+    start: 'In√≠cio'
+    each_issue: 'Cada tarefa'
+    end: 'T√©rmino'
 
   explain:
-       header: "Aparecer no inÌcio das notas de release"
-       start: "Aparecer uma vez, somente apÛs o cabeÁalho. Usar por exemplo uma <ul> tag."
-       each_issue: "Aparecer uma vez para cada tarefa."
-       end: "Aparecer uma vez no final. Usar por exemplo uma </ul> tag."
+    header: "Aparecer no in√≠cio das notas de release"
+    start: "Aparecer uma vez, somente ap√≥s o cabe√ßalho. Usar por exemplo uma <ul> tag."
+    each_issue: "Aparecer uma vez para cada tarefa."
+    end: "Aparecer uma vez no final. Usar por exemplo uma </ul> tag."
 
   subs:
-       intro: "VocÍ pode usar substituiÁıes como %{this} para mostrar informaÁ„o no CabeÁalho e em Cada campo da tarefa."
-       header: "SubstituiÁ„o referente ‡ vers„o. Os valores conhecidos s„o nome, data, id e descriÁ„o."
-       each_issue: "SubsituiÁ„o referente ‡ tarefa. Os valores conhecidos s„o assunto, notas de release, id, tipo e projeto."
+    intro: "Voc√™ pode usar substitui√ß√µes como %{this} para mostrar informa√ß√£o no Cabe√ßalho e em Cada campo da tarefa."
+    header: "Substitui√ß√£o referente √† vers√£o. Os valores conhecidos s√£o nome, data, id e descri√ß√£o."
+    each_issue: "Subsitui√ß√£o referente √† tarefa. Os valores conhecidos s√£o assunto, notas de release, id, tipo e projeto."
