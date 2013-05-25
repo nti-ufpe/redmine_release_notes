@@ -21,58 +21,58 @@ pt-BR:
 
     no_issues_for_this_version: "Nenhuma tarefa precisa de nota de release para essa versão"
 
-  some_issues_not_finished:
-    one: "Há 1 tarefa que precisa de notas de release"
-    other: "Há %{count} tarefas que precisam de notas de release"
+    some_issues_not_finished:
+      one: "Há 1 tarefa que precisa de notas de release"
+      other: "Há %{count} tarefas que precisam de notas de release"
 
-  some_issues_nil_custom_field_value:
-    one: "Há 1 tarefa que não possui valor para o campo de notas de release"
-    other: "Há %{count} tarefas que não possuem valor para o campo de notas de release"
+    some_issues_nil_custom_field_value:
+      one: "Há 1 tarefa que não possui valor para o campo de notas de release"
+      other: "Há %{count} tarefas que não possuem valor para o campo de notas de release"
 
-  some_issues_done_with_no_release_notes:
-    one: "Há 1 tarefa marcada como já 'concluída', mas não tem notas de release"
-    other: "Há %{count} tarefas marcadas como 'concluídas', mas que não têm notas de release"
+    some_issues_done_with_no_release_notes:
+      one: "Há 1 tarefa marcada como já 'concluída', mas não tem notas de release"
+      other: "Há %{count} tarefas marcadas como 'concluídas', mas que não têm notas de release"
 
-  raw: "Visualizar linha"
-  download: "Baixar"
+    raw: "Visualizar linha"
+    download: "Baixar"
 
-  config:
-    issue_custom_field:
-    name: "Campo personalizado para notas de release"
-    info: "Esse campo é usado para checar se as notas de release foram completadas. Deve ser um campo do tipo lista com três valores; indicando que a) a tarefa não precisa de notas de release, b) a tarefa precisa de notas de release e ainda não as possuem, ou c) notas de release para essa tarefa estão concluídas."
+    config:
+      issue_custom_field:
+        name: "Campo personalizado para notas de release"
+        info: "Esse campo é usado para checar se as notas de release foram completadas. Deve ser um campo do tipo lista com três valores; indicando que a) a tarefa não precisa de notas de release, b) a tarefa precisa de notas de release e ainda não as possuem, ou c) notas de release para essa tarefa estão concluídas."
 
-  field_value_not_required:
-    name: "As tarefas que não precisam de notas de release são"
+      field_value_not_required:
+        name: "Tarefas que não precisam de notas de release"
 
-  field_value_todo:
-    name: "As tarefas que ainda precisam de notas de release são"
+      field_value_todo:
+        name: "Tarefas que ainda precisam de notas de release"
 
-  field_value_done:
-    name: "As tarefas com notas de release concluídas são"
+      field_value_done:
+        name: "Tarefas com notas de release concluídas"
 
-  formats:
-    title: "Formatos"
-    format: "Formato"
-    new: "Novo formato"
-    none: "Nenhum formato de notas de release está definido atualmente."
-    define_some: "Definir algum"
-    default_generation_format: "Gerar formato padrão"
-    preview: "Pré-visualizar nova versão"
+    formats:
+      title: "Formatos"
+      format: "Formato"
+      new: "Novo formato"
+      none: "Nenhum formato de notas de release está definido atualmente."
+      define_some: "Definir algum"
+      default_generation_format: "Gerar formato padrão"
+      preview: "Pré-visualizar nova versão"
 
-  attributes:
-    name: 'Nome'
-    header: 'Cabeçalho'
-    start: 'Início'
-    each_issue: 'Cada tarefa'
-    end: 'Término'
+    attributes:
+      name: 'Nome'
+      header: 'Cabeçalho'
+      start: 'Início'
+      each_issue: 'Cada tarefa'
+      end: 'Término'
 
-  explain:
-    header: "Aparecer no início das notas de release"
-    start: "Aparecer uma vez, somente após o cabeçalho. Usar por exemplo uma <ul> tag."
-    each_issue: "Aparecer uma vez para cada tarefa."
-    end: "Aparecer uma vez no final. Usar por exemplo uma </ul> tag."
+    explain:
+      header: "Aparecer no início das notas de release"
+      start: "Aparecer uma vez, somente após o cabeçalho. Usar por exemplo uma <ul> tag."
+      each_issue: "Aparecer uma vez para cada tarefa."
+      end: "Aparecer uma vez no final. Usar por exemplo uma </ul> tag."
 
-  subs:
-    intro: "Você pode usar substituições como %{this} para mostrar informação no Cabeçalho e em Cada campo da tarefa."
-    header: "Substituição referente à versão. Os valores conhecidos são nome, data, id e descrição."
-    each_issue: "Subsituição referente à tarefa. Os valores conhecidos são assunto, notas de release, id, tipo e projeto."
+    subs:
+      intro: "Você pode usar substituições como %{this} para mostrar informação no Cabeçalho e em Cada campo da tarefa."
+      header: "Substituição referente à versão. Os valores conhecidos são nome, data, id e descrição."
+      each_issue: "Subsituição referente à tarefa. Os valores conhecidos são assunto, notas de release, id, tipo e projeto."
