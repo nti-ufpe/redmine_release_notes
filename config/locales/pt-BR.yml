@@ -13,18 +13,18 @@ pt-BR:
     generate_title: "Gerenciar notas de versão para versão %{version}"
     show_closed_versions: "Mostrar versões finalizadas"
 
-    progress: "Lançamento notas progresso"
+    progress: "Notas de release - Progresso"
     x_issues_in_total: "%{count} de tarefas no total"
-    x_requiring_release_notes: "%{count} de tarefas precisam de notas de release"
+    x_requiring_release_notes: "%{count} tarefas já estão com notas de release"
     x_done: "%{count} concluídas"
     x_done_empty: "%{count} com notas de lançamento vazias"
     x_to_go: "%{count} a fazer"
-    x_not_required: "%{count} não é necessária"
+    x_not_required: "%{count} tarefas não precisam de notas de release"
     x_not_required_cf_none:  "%{count} : definido como não necessária"
-    x_not_required_cf_not_defined:  "%{count} : rastreador não tem notas de lançamento"
-    x_invalid: "%{count} : '%{cf_name}' inválido"
-    x_invalid_nil:  "%{count} : em branco ou NULL"
-    x_invalid_nil_all:  "tudo em branco ou NULL"
+    x_not_required_cf_not_defined:  "%{count} : não tem o campo notas de release"
+    x_invalid: "%{count} : Sem '%{cf_name}'"
+    x_invalid_nil:  "%{count} : em branco"
+    x_invalid_nil_all:  "tudo em branco"
     none_blank:  "Não há problemas com '%{cf_name}' como em branco ou inválido"
     all_done: "Tudo concluído!"
     percent_done: "%{count}% feito"
@@ -37,6 +37,10 @@ pt-BR:
       other: "Há %{count} tarefas que precisam de notas de release"
 
     some_issues_nil_custom_field_value:
+      one: "Há 1 tarefa que não possui valor para o campo de notas de release"
+      other: "Há %{count} tarefas que não possuem valor para o campo de notas de release"
+
+    some_issues_invalid_custom_field_value:
       one: "Há 1 tarefa que não possui valor para o campo de notas de release"
       other: "Há %{count} tarefas que não possuem valor para o campo de notas de release"
 
