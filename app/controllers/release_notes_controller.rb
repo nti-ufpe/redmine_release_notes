@@ -65,14 +65,14 @@ class ReleaseNotesController < ApplicationController
 
   def destroy
     release_note = ReleaseNote.find(params[:id])
-    issue = release_note.issue
+    @issue = Issue.find(release_note.issue_id)
 
     update_custom_field(false)
 
     release_note.destroy
 
     flash[:notice] = l(:notice_successful_delete)
-    redirect_to issue
+    redirect_to @issue
   end
 
   def generate
