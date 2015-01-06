@@ -28,7 +28,7 @@ class ReleaseNotesController < ApplicationController
 
     @versions = @project.shared_versions || []
     @versions += @project.rolled_up_versions.visible if @with_subprojects
-    @versions = @versions.uniq.sort
+    @versions = @versions.uniq.sort.reverse
 
     # reject closed versions unless the user has specifically asked for them
     @versions.reject!(&:closed?) unless params[:closed]
