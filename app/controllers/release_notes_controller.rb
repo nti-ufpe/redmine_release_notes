@@ -28,7 +28,7 @@ class ReleaseNotesController < ApplicationController
 
     @versions = @project.shared_versions || []
     @versions += @project.rolled_up_versions.visible if @with_subprojects
-    @versions = @versions.uniq.sort.reverse
+    @versions = @versions.uniq.sort
 
     # reject closed versions unless the user has specifically asked for them
     @versions.reject!(&:closed?) unless params[:closed]
@@ -65,14 +65,14 @@ class ReleaseNotesController < ApplicationController
 
   def destroy
     release_note = ReleaseNote.find(params[:id])
-    @issue = Issue.find(release_note.issue_id)
+    issue = release_note.issue
 
     update_custom_field(false)
 
     release_note.destroy
 
     flash[:notice] = l(:notice_successful_delete)
-    redirect_to @issue
+    redirect_to issue
   end
 
   def generate

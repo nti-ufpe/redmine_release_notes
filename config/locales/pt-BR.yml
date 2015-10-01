@@ -15,7 +15,7 @@ pt-BR:
 
     progress: "Notas de release - Progresso"
     x_issues_in_total: "%{count} de tarefas no total"
-    x_requiring_release_notes: "%{count} tarefas já estão com notas de release"
+    x_requiring_release_notes: "%{count} tarefas precisam de notas de release"
     x_done: "%{count} concluídas"
     x_done_empty: "%{count} com notas de release vazias"
     x_to_go: "%{count} a fazer"
@@ -29,8 +29,7 @@ pt-BR:
     all_done: "Tudo concluído!"
     percent_done: "%{count}% feito"
     not_started: "Não iniciada"
-
-    no_issues_for_this_version: "Nenhuma tarefa precisa de nota de release para essa versão"
+    no_issues_for_this_version: "Nenhuma de nota de release para essa versão"
 
     some_issues_not_finished:
       one: "Há 1 tarefa que precisa de notas de release"
@@ -45,7 +44,7 @@ pt-BR:
       other: "Há %{count} tarefas que não possuem valor para o campo de notas de release"
 
     some_issues_done_with_no_release_notes:
-      one: "Há 1 tarefa marcada como ‘concluída', mas não tem notas de release"
+      one: "Há 1 tarefa marcada como 'concluída', mas não tem notas de release"
       other: "Há %{count} tarefas marcadas como 'concluídas', mas que não têm notas de release"
 
     raw: "Visualizar linha"
